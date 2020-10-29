@@ -11,7 +11,7 @@ setuptools.setup(
     description="K8s Service Operator Interface",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=setuptools.find_packages(),
+    py_modules=["k8s_service"],
     install_requires=[
         'ops',
     ],
